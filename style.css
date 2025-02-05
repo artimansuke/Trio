@@ -1,0 +1,135 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: url(./assets/bg_image.jpg) no-repeat center center/cover;
+}
+
+.rgba_effect{
+
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.3); */
+}
+
+/* *************************************** */
+.navbar{
+    height: 100px;
+    width: 100%;
+    /* background-color: orange; */
+
+    display: flex;
+}
+
+.navbar .section_1{
+    height: 100%;
+    width: 25%;
+    /* background-color: pink; */
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar .section_1 img{
+    height: 80px;
+    width: 160px;
+
+    margin-left: 30px;
+
+}
+
+/* ********************************************** */
+
+.navbar .section_2{
+    height: 100%;
+    width: 75%;
+    /* background-color: aqua; */
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-end;
+    padding-right: 40px;
+
+
+
+}
+
+.section_2 i{
+    color:white;
+    font-size: 18px;
+    margin-left: 20px;
+
+ 
+
+
+}
+
+/* navbar section end */
+
+/* ******************************************************** */
+
+.button_group{
+
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 150px;
+
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.button_group button{
+    padding: 15px 40px;
+    color:black;
+    background: transparent;
+
+    margin-left: 40px;
+
+    border: solid 1px black;
+
+
+    transition: all 0.5s ease;
+}
+
+.button_group button:hover{
+    background-color: black;
+    color: #A89B82;
+}
+
+/* ********************************************************** */
+
+.whatsapp_box{
+
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: fixed;
+    bottom: 50px;
+    right:50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp_box i{
+
+    color: white;
+    font-size: 30px;
+}
